@@ -1,6 +1,8 @@
+const restServer = require('./restServer')
+
 class Main {
     static main() {
-        console.log('hello world')
+        restServer.run()
     }
 }
 

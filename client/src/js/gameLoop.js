@@ -4,13 +4,13 @@ export default class GameLoop {
      * @param {Function} callback - функция для запуска в интервале
      */
     constructor(callback) {
-        this._callack = callback
+        this._callback = callback
         this._interval = null
         this._delay = 1000
     }
 
     start() {
-        this._interval = setInterval(this._callack, this._delay)
+        this._interval = setInterval(this._callback, this._delay)
     }
 
     stop() {

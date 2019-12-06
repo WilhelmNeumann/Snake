@@ -19,3 +19,10 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+client/dist/favicon.ico
+client/dist/index.html
+client/dist/css/app.2de90b5a.css
+client/dist/js/app.7dd6e6a3.js
+client/dist/js/app.7dd6e6a3.js.map
+client/dist/js/chunk-vendors.276973a3.js
+client/dist/js/chunk-vendors.276973a3.js.map
